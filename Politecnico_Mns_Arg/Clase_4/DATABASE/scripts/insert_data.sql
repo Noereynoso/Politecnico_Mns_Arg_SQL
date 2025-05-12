@@ -4,8 +4,7 @@
 INSERT INTO alumnos (nombre, apellido, fecha_nacimiento, email) VALUES
     ('Juan', 'Pérez', '2005-04-12', 'juanper123@gmail.com'),
     ('Ana', 'Gómez', '2006-08-20', 'anagom3@gmail.com'),
-    ('Luis', 'Martínez', '2004-11-15', 'luismart12@gmail.com'
-);
+    ('Luis', 'Martínez', '2004-11-15', 'luismart12@gmail.com');
 
 -- En esta parte inserta datos en la tabla de profesores.
 -- La tabla de profesores contiene la información de los profesores de la escuela.
