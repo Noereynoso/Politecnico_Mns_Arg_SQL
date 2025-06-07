@@ -10,9 +10,8 @@ INSERT INTO alumnos (nombre, apellido, fecha_nacimiento, email) VALUES
 -- La tabla de profesores contiene la información de los profesores de la escuela.
 INSERT INTO Profesores (nombre, apellido, especialidad) VALUES
 ('Carlos', 'Fernández', 'Matemáticas'),
-('Laura', 'Ramírez', 'Historia'),
-('Pedro', 'Sánchez', 'Ciencias'),
-('Ana', 'Torres', 'Inglés');
+('Laura', 'Ramírez', 'Historia Argentina'),
+('Pedro', 'Sánchez', 'Python');
 
 -- En esta parte inserta datos en la tabla de cursos.
 -- La tabla de cursos contiene la información de los cursos de la escuela.
@@ -21,7 +20,6 @@ INSERT INTO cursos (nombre_curso, id_profesor) VALUES
     ('Matemáticas ', 1),
     ('Historia Argentina', 2),
     ('Python', 3);
-
 
 -- En esta parte inserta datos en la tabla de inscripciones.
 -- La tabla de inscripciones contiene la información de las inscripciones de los alumnos a los cursos.

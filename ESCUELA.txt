@@ -1,0 +1,10 @@
+CREATE TABLE ALUMNOS(ID INT PRIMARY KEY AUTO_INCREMENT,
+                    NOMBRE VARCHAR(50) NOT NULL,
+                    APELLIDO VARCHAR(80) NOT NULL,
+                    EDAD INT NOT NULL,
+                    DNI VARCHAR(20) UNIQUE NOT NULL,
+                    DOMICILIO VARCHAR(100) NOT NULL,
+                    TELEFONO VARCHAR(20) NOT NULL
+                    );
+                     
+    
